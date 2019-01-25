@@ -796,3 +796,691 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.01.25-19.20.05:068][930]OBJ SavePackage: Finished generating thumbnails for package [/Game/maze/maze_backtrack]
 [2019.01.25-19.20.05:102][930]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/maze_backtrack_Auto465B219BD4757980662C664A0B2601E16.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/Autosaves/Game/maze/maze_backtrack_Auto4.uasset'
 [2019.01.25-19.20.05:103][930]LogFileHelpers: Auto-saving content packages took 0.078
+[2019.01.25-19.28.37:150][819]BlueprintLog: New page: Compile maze_backtrack
+[2019.01.25-19.28.37:827][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/maze/maze_backtrack" FILE="../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/maze/maze_backtrack.uasset" SILENT=true
+[2019.01.25-19.28.37:960][819]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/maze_backtrack9832823442A4196C5A71D39D68765115.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/maze/maze_backtrack.uasset'
+[2019.01.25-19.30.56:755][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/maze/maze_backtrack" FILE="../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/maze/maze_backtrack.uasset" SILENT=true
+[2019.01.25-19.30.56:785][513]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/maze_backtrack1679751F43866CE28FA0E391E745138B.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/maze/maze_backtrack.uasset'
+[2019.01.25-19.32.09:675][328]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.01.25-19.32.12:254][328]LogStats: FPlatformStackWalk::StackWalkAndDump -  2.579 s
+[2019.01.25-19.32.12:255][328]LogOutputDevice: Error: === Handled ensure: ===
+[2019.01.25-19.32.12:255][328]LogOutputDevice: Error: 
+[2019.01.25-19.32.12:255][328]LogOutputDevice: Error: Ensure condition failed: !InputKeys.Contains(Key) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\InputCore\Private\InputCoreTypes.cpp] [Line: 718]
+[2019.01.25-19.32.12:255][328]LogOutputDevice: Error: Adding duplicate key 'UnknownCharCode_223'
+[2019.01.25-19.32.12:255][328]LogOutputDevice: Error: Stack: 
+[2019.01.25-19.32.12:255][328]LogOutputDevice: Error: [Callstack] 0x00007ffcfb7d96e8 UE4Editor-InputCore.dll!UnknownFunction []
+[2019.01.25-19.32.12:255][328]LogOutputDevice: Error: [Callstack] 0x00007ffcfb7dd5e5 UE4Editor-InputCore.dll!UnknownFunction []
+[2019.01.25-19.32.12:255][328]LogOutputDevice: Error: [Callstack] 0x00007ffcdf949b99 UE4Editor-Slate.dll!UnknownFunction []
+[2019.01.25-19.32.12:255][328]LogOutputDevice: Error: [Callstack] 0x00007ffcfb64dc35 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.25-19.32.12:255][328]LogOutputDevice: Error: [Callstack] 0x00007ffcfb640de0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.25-19.32.12:255][328]LogOutputDevice: Error: [Callstack] 0x00007ffcfb6501eb UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.25-19.32.12:255][328]LogOutputDevice: Error: [Callstack] 0x00007ffcfb63ca19 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.25-19.32.12:255][328]LogOutputDevice: Error: [Callstack] 0x00007ffd2d616d41 USER32.dll!UnknownFunction []
+[2019.01.25-19.32.12:255][328]LogOutputDevice: Error: [Callstack] 0x00007ffd2d616713 USER32.dll!UnknownFunction []
+[2019.01.25-19.32.12:255][328]LogOutputDevice: Error: [Callstack] 0x00007ffcfb651746 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.01.25-19.32.12:255][328]LogOutputDevice: Error: [Callstack] 0x00007ff6ca935546 UE4Editor.exe!UnknownFunction []
+[2019.01.25-19.32.12:255][328]LogOutputDevice: Error: [Callstack] 0x00007ff6ca94596c UE4Editor.exe!UnknownFunction []
+[2019.01.25-19.32.12:255][328]LogOutputDevice: Error: [Callstack] 0x00007ff6ca9459ea UE4Editor.exe!UnknownFunction []
+[2019.01.25-19.32.12:255][328]LogOutputDevice: Error: [Callstack] 0x00007ff6ca9548da UE4Editor.exe!UnknownFunction []
+[2019.01.25-19.32.12:256][328]LogOutputDevice: Error: [Callstack] 0x00007ff6ca95659a UE4Editor.exe!UnknownFunction []
+[2019.01.25-19.32.12:256][328]LogOutputDevice: Error: [Callstack] 0x00007ffd2c6c3034 KERNEL32.DLL!UnknownFunction []
+[2019.01.25-19.32.12:256][328]LogOutputDevice: Error: [Callstack] 0x00007ffd2d833691 ntdll.dll!UnknownFunction []
+[2019.01.25-19.32.12:256][328]LogOutputDevice: Error: 
+[2019.01.25-19.32.12:263][328]LogStats:                SubmitErrorReport -  0.000 s
+[2019.01.25-19.32.14:346][328]LogStats:                    SendNewReport -  2.083 s
+[2019.01.25-19.32.14:346][328]LogStats:             FDebug::EnsureFailed -  4.671 s
+[2019.01.25-19.32.56:456][490]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.25-19.32.56:456][490]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.25-19.33.39:063][846]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.028
+[2019.01.25-19.33.39:065][846]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/maze/maze_backtrack] ([1] browsable assets)...
+[2019.01.25-19.33.39:106][846]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/maze/maze_backtrack.maze_backtrack]
+[2019.01.25-19.33.39:106][846]OBJ SavePackage: Finished generating thumbnails for package [/Game/maze/maze_backtrack]
+[2019.01.25-19.33.39:144][846]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/maze_backtrack_Auto53C9D8546484CD1B245D832B80BDBC7F6.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/Autosaves/Game/maze/maze_backtrack_Auto5.uasset'
+[2019.01.25-19.33.39:145][846]LogFileHelpers: Auto-saving content packages took 0.081
+[2019.01.25-19.37.23:126][831]LogEditorTransaction: Undo Create Pin Link
+[2019.01.25-19.37.24:090][868]LogEditorTransaction: Undo Break Pin Links
+[2019.01.25-19.37.24:883][898]LogEditorTransaction: Undo Add In Parameter
+[2019.01.25-19.38.21:307][681]BlueprintLog: New page: Compile maze_backtrack
+[2019.01.25-19.38.21:764][681]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/maze/maze_backtrack" FILE="../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/maze/maze_backtrack.uasset" SILENT=true
+[2019.01.25-19.38.21:867][681]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/maze_backtrack3496E4D04FE7B212AB91B3ADC9E562A6.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/maze/maze_backtrack.uasset'
+[2019.01.25-19.44.26:608][311]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.027
+[2019.01.25-19.44.26:609][311]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/maze/maze_backtrack] ([1] browsable assets)...
+[2019.01.25-19.44.26:652][311]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/maze/maze_backtrack.maze_backtrack]
+[2019.01.25-19.44.26:652][311]OBJ SavePackage: Finished generating thumbnails for package [/Game/maze/maze_backtrack]
+[2019.01.25-19.44.26:694][311]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/maze_backtrack_Auto6CC09A33542B8914FB8F8DA9366E0EF9D.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/Autosaves/Game/maze/maze_backtrack_Auto6.uasset'
+[2019.01.25-19.44.26:695][311]LogFileHelpers: Auto-saving content packages took 0.087
+[2019.01.25-19.54.27:152][422]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.133
+[2019.01.25-19.54.27:160][422]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/maze/maze_backtrack] ([1] browsable assets)...
+[2019.01.25-19.54.27:208][422]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/maze/maze_backtrack.maze_backtrack]
+[2019.01.25-19.54.27:208][422]OBJ SavePackage: Finished generating thumbnails for package [/Game/maze/maze_backtrack]
+[2019.01.25-19.54.27:386][422]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/maze_backtrack_Auto7380320024410764ED7575FA0A5561326.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/Autosaves/Game/maze/maze_backtrack_Auto7.uasset'
+[2019.01.25-19.54.27:392][422]LogFileHelpers: Auto-saving content packages took 0.233
+[2019.01.25-20.04.39:582][726]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.035
+[2019.01.25-20.04.39:584][726]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/maze/maze_backtrack] ([1] browsable assets)...
+[2019.01.25-20.04.39:603][726]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/maze/maze_backtrack.maze_backtrack]
+[2019.01.25-20.04.39:603][726]OBJ SavePackage: Finished generating thumbnails for package [/Game/maze/maze_backtrack]
+[2019.01.25-20.04.39:668][726]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/maze_backtrack_Auto82C2C27C746F8C11FCA1E29A3F94B3FF7.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/Autosaves/Game/maze/maze_backtrack_Auto8.uasset'
+[2019.01.25-20.04.39:670][726]LogFileHelpers: Auto-saving content packages took 0.088
+[2019.01.25-20.04.48:896][477]BlueprintLog: New page: Compile maze_backtrack
+[2019.01.25-20.04.49:231][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/maze/maze_backtrack" FILE="../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/maze/maze_backtrack.uasset" SILENT=true
+[2019.01.25-20.04.49:309][477]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/maze_backtrack73F6EF0E40A1F570C70FC2958020D4FC.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/maze/maze_backtrack.uasset'
+[2019.01.25-20.14.40:098][144]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.023
+[2019.01.25-20.14.40:100][144]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/maze/maze_backtrack] ([1] browsable assets)...
+[2019.01.25-20.14.40:143][144]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/maze/maze_backtrack.maze_backtrack]
+[2019.01.25-20.14.40:143][144]OBJ SavePackage: Finished generating thumbnails for package [/Game/maze/maze_backtrack]
+[2019.01.25-20.14.40:189][144]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/maze_backtrack_Auto94B7F035540C7618D069625B06A6AA6AC.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/Autosaves/Game/maze/maze_backtrack_Auto9.uasset'
+[2019.01.25-20.14.40:190][144]LogFileHelpers: Auto-saving content packages took 0.091
+[2019.01.25-20.22.15:336][501]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.22.19:939][513]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.22.21:474][517]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.22.23:009][520]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.22.23:521][521]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.22.33:370][549]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.22.35:418][555]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.22.59:398][625]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.22.59:915][626]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.23.01:448][630]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.23.05:541][641]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.23.08:147][649]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.23.09:166][651]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.23.22:543][690]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.23.29:231][710]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.23.29:745][711]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.23.30:261][712]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.23.36:442][730]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.23.38:491][735]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.23.53:023][778]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.23.54:555][781]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.23.55:072][782]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.24.03:770][808]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.24.05:305][812]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.24.05:821][813]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.24.06:840][815]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.24.07:353][816]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.24.07:870][817]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.24.20:266][853]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.24.23:850][862]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.24.24:869][864]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.24.47:897][933]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.24.49:430][936]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.24.49:944][937]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.25.07:946][991]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.25.08:459][992]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.25.18:242][ 20]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.25.19:773][ 23]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.25.20:290][ 24]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.25.31:338][ 57]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.25.32:870][ 61]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.25.36:445][ 71]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.25.50:816][113]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.25.52:350][117]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.25.53:883][120]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.25.54:399][121]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.26.08:666][164]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.26.09:182][165]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.26.21:464][202]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.26.21:979][203]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.26.54:490][300]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.27.02:321][322]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.27.02:837][323]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.27.07:486][337]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.27.23:962][386]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.27.32:133][410]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.27.33:665][413]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.27.34:182][414]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.27.43:930][443]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.27.44:446][444]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.28.04:114][503]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.28.08:207][513]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.28.23:087][556]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.28.23:605][557]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.28.25:185][562]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.28.30:867][578]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.28.33:426][585]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.28.37:004][594]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.28.39:053][599]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.28.49:318][629]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.28.50:851][633]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.28.51:367][634]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.29.04:419][673]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.29.04:934][674]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.29.24:135][731]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.29.29:234][745]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.29.30:769][749]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.29.37:427][767]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.29.38:958][770]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.30.00:505][834]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.30.02:040][838]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.30.02:557][839]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.30.22:035][896]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.30.24:084][901]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.30.36:978][938]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.30.39:026][943]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.30.44:131][958]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.30.45:149][960]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.30.45:666][961]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.30.47:197][964]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.30.47:713][965]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.30.51:846][977]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.30.53:896][982]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.31.17:276][ 52]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.31.17:791][ 53]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.31.19:838][ 59]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.31.20:356][ 60]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.31.22:959][ 68]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.31.24:490][ 71]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.31.25:006][ 72]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.31.33:256][ 97]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.31.34:791][100]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.31.35:304][101]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.31.35:820][102]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.31.47:620][137]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.32.07:348][194]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.32.08:883][198]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.32.18:080][224]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.32.21:149][232]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.32.21:663][233]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.32.23:195][237]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.32.23:713][238]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.32.30:962][260]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.32.31:480][261]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.32.33:056][266]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.32.33:573][267]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.32.36:177][275]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.32.37:711][279]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.32.38:228][280]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.32.49:674][314]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.32.51:210][318]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.32.51:724][319]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.32.53:257][322]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.32.53:773][323]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.33.06:737][362]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.33.08:273][366]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.33.08:789][367]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.33.21:886][406]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.33.23:931][411]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.33.46:430][478]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.33.46:947][479]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.34.04:428][530]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.34.05:962][534]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.34.06:479][535]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.34.15:723][563]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.34.16:240][564]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.34.21:354][578]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.34.34:738][616]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.34.36:788][621]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.34.38:323][625]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.34.49:567][656]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.34.51:102][660]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.34.51:620][661]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.35.15:664][733]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.35.16:181][734]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.35.22:366][752]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.35.22:880][753]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.35.24:414][757]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.35.34:127][784]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.35.38:730][796]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.35.39:243][797]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.35.40:263][799]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.35.51:054][830]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.35.52:589][834]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.36.13:836][897]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.36.33:551][955]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.36.36:618][962]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.36.37:133][963]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.36.49:597][  0]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.36.51:131][  4]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.36.55:228][ 15]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.37.06:716][ 49]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.37.07:228][ 50]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.37.17:445][ 79]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.37.17:960][ 80]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.37.19:492][ 83]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.37.20:008][ 84]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.37.39:938][139]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.37.55:037][184]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.38.06:633][218]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.38.07:655][220]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.38.34:864][301]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.38.36:397][304]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.38.36:911][305]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.38.38:445][309]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.38.38:962][310]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.38.48:196][338]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.38.48:711][339]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.39.47:299][501]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.40.01:147][541]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.40.03:195][547]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.40.03:713][548]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.40.08:364][562]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.40.10:413][567]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.40.33:225][634]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.40.34:756][637]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.40.35:272][638]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.40.36:807][642]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.40.40:904][653]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.01.25-20.46.48:561][323]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.027
+[2019.01.25-20.46.48:562][323]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/maze/maze_backtrack] ([1] browsable assets)...
+[2019.01.25-20.46.48:604][323]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/maze/maze_backtrack.maze_backtrack]
+[2019.01.25-20.46.48:604][323]OBJ SavePackage: Finished generating thumbnails for package [/Game/maze/maze_backtrack]
+[2019.01.25-20.46.48:650][323]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/maze_backtrack_Auto0EB04E504457C90271309A08710D2320D.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/Autosaves/Game/maze/maze_backtrack_Auto0.uasset'
+[2019.01.25-20.46.48:652][323]LogFileHelpers: Auto-saving content packages took 0.090
+[2019.01.25-20.52.34:318][ 92]BlueprintLog: New page: Compile maze_backtrack
+[2019.01.25-20.52.34:515][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/maze/maze_backtrack" FILE="../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/maze/maze_backtrack.uasset" SILENT=true
+[2019.01.25-20.52.34:561][ 92]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/maze_backtrack257CF81A416AE30FD793DB9BC95B004B.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/maze/maze_backtrack.uasset'
+[2019.01.25-20.52.38:523][474]LogSlate: Window 'maze_backtrack' being destroyed
+[2019.01.25-20.52.38:533][474]LogSlate: Window 'maze_backtrack' being destroyed
+[2019.01.25-20.52.55:446][398]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-20.53.00:903][ 22]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.01.25-20.53.03:426][275]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall9)
+[2019.01.25-20.53.04:930][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall11)
+[2019.01.25-20.53.06:016][493]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2019.01.25-20.53.06:755][539]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RightArm_StaticMesh)
+[2019.01.25-20.53.07:998][609]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bump_StaticMesh)
+[2019.01.25-20.53.44:254][518]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-20.53.59:888][118]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bump_StaticMesh)
+[2019.01.25-20.54.02:715][268]Cmd: DELETE
+[2019.01.25-20.54.02:715][268]Cmd: ACTOR DELETE
+[2019.01.25-20.54.02:746][268]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.25-20.54.02:831][268]LogEditorActor: Deleted 1 Actors (0.102 secs)
+[2019.01.25-20.54.03:679][316]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (RightArm_StaticMesh)
+[2019.01.25-20.54.04:093][328]Cmd: DELETE
+[2019.01.25-20.54.04:093][328]Cmd: ACTOR DELETE
+[2019.01.25-20.54.04:101][328]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.25-20.54.04:194][328]LogEditorActor: Deleted 1 Actors (0.100 secs)
+[2019.01.25-20.54.04:919][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LeftArm_StaticMesh)
+[2019.01.25-20.54.05:135][393]Cmd: DELETE
+[2019.01.25-20.54.05:135][393]Cmd: ACTOR DELETE
+[2019.01.25-20.54.05:142][393]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.25-20.54.05:234][393]LogEditorActor: Deleted 1 Actors (0.098 secs)
+[2019.01.25-20.54.05:941][450]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ramp_StaticMesh)
+[2019.01.25-20.54.06:248][454]Cmd: DELETE
+[2019.01.25-20.54.06:248][454]Cmd: ACTOR DELETE
+[2019.01.25-20.54.06:258][454]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.25-20.54.06:406][454]LogEditorActor: Deleted 1 Actors (0.158 secs)
+[2019.01.25-20.54.06:922][481]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Linear_Stair_StaticMesh)
+[2019.01.25-20.54.07:301][491]Cmd: DELETE
+[2019.01.25-20.54.07:301][491]Cmd: ACTOR DELETE
+[2019.01.25-20.54.07:308][491]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.25-20.54.07:404][491]LogEditorActor: Deleted 1 Actors (0.103 secs)
+[2019.01.25-20.54.07:908][535]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall11)
+[2019.01.25-20.54.08:211][545]Cmd: DELETE
+[2019.01.25-20.54.08:211][545]Cmd: ACTOR DELETE
+[2019.01.25-20.54.08:218][545]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.25-20.54.08:310][545]LogEditorActor: Deleted 1 Actors (0.099 secs)
+[2019.01.25-20.54.08:825][586]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2019.01.25-20.54.08:997][587]Cmd: DELETE
+[2019.01.25-20.54.08:997][587]Cmd: ACTOR DELETE
+[2019.01.25-20.54.09:003][587]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.25-20.54.09:099][587]LogEditorActor: Deleted 1 Actors (0.103 secs)
+[2019.01.25-20.54.10:239][661]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall10)
+[2019.01.25-20.54.10:475][662]Cmd: DELETE
+[2019.01.25-20.54.10:476][662]Cmd: ACTOR DELETE
+[2019.01.25-20.54.10:487][662]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.25-20.54.10:629][662]LogEditorActor: Deleted 1 Actors (0.152 secs)
+[2019.01.25-20.54.11:363][710]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall9)
+[2019.01.25-20.54.11:659][713]Cmd: DELETE
+[2019.01.25-20.54.11:659][713]Cmd: ACTOR DELETE
+[2019.01.25-20.54.11:669][713]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.25-20.54.11:812][713]LogEditorActor: Deleted 1 Actors (0.152 secs)
+[2019.01.25-20.54.14:920][905]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CubeMesh)
+[2019.01.25-20.54.15:447][928]Cmd: DELETE
+[2019.01.25-20.54.15:448][928]Cmd: ACTOR DELETE
+[2019.01.25-20.54.15:454][928]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.25-20.54.15:544][928]LogEditorActor: Deleted 1 Actors (0.097 secs)
+[2019.01.25-20.54.23:025][353]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-20.54.31:957][845]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/maze/maze_backtrack.maze_backtrack
+[2019.01.25-20.55.01:555][749]BlueprintLog: New page: Compile maze_backtrack
+[2019.01.25-20.55.01:976][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/maze/maze_backtrack" FILE="../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/maze/maze_backtrack.uasset" SILENT=true
+[2019.01.25-20.55.02:085][749]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/maze_backtrack186B24494396DA62E1DFE598A5F35BDC.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/maze/maze_backtrack.uasset'
+[2019.01.25-20.55.15:983][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.01.25-20.55.16:954][426]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.01.25-20.55.17:888][481]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.01.25-20.55.19:760][587]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-20.57.23:049][  7]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/ThirdPersonExampleMap_Auto1AFD2D6E04C0EAF4DD4AF98B4070AD1A4.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2019.01.25-20.57.23:053][  7]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.195
+[2019.01.25-20.57.23:053][  7]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.195
+[2019.01.25-20.58.35:282][318]LogRenderer: Reallocating scene render targets to support 804x404 Format 10 NumSamples 1 (Frame:1).
+[2019.01.25-20.58.39:603][602]BlueprintLog: New page: Compile maze_backtrack
+[2019.01.25-20.58.40:040][602]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/maze/maze_backtrack" FILE="../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/maze/maze_backtrack.uasset" SILENT=true
+[2019.01.25-20.58.40:153][602]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/maze_backtrack6BBBAA434D400189B5CD839791102096.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/maze/maze_backtrack.uasset'
+[2019.01.25-20.58.49:544][893]LogSlate: Window 'maze_backtrack' being destroyed
+[2019.01.25-20.58.49:560][893]LogSlate: Window 'maze_backtrack' being destroyed
+[2019.01.25-20.59.21:974][403]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-20.59.53:345][ 87]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/ThirdPersonExampleMapA79020D44AF80BF4A7DA29BEFB63DCCF.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.01.25-20.59.53:924][ 87]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/ThirdPersonExampleMap_BuiltDataD1DAC0BD4440FCAF7097FAB0F4F852A8.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2019.01.25-20.59.57:782][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/maze/maze_backtrack" FILE="../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/maze/maze_backtrack.uasset" SILENT=true
+[2019.01.25-20.59.58:026][324]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/maze_backtrack78A601514CD7F7228E0CB7BAF08949D6.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/maze/maze_backtrack.uasset'
+[2019.01.25-21.00.01:967][512]LogSlate: Window 'unreal_project - Unreal Editor' being destroyed
+[2019.01.25-21.00.01:969][512]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.25-21.00.02:351][513]Cmd: QUIT_EDITOR
+[2019.01.25-21.00.02:465][513]LogExit: Preparing to exit.
+[2019.01.25-21.00.03:537][513]LogExit: Editor shut down
+[2019.01.25-21.00.03:539][513]LogExit: Transaction tracking system shut down
+[2019.01.25-21.00.04:049][513]LogExit: Object subsystem successfully closed.
+[2019.01.25-21.00.04:082][513]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.01.25-21.00.04:091][513]LogD3D11RHI: Shutdown
+[2019.01.25-21.00.04:091][513]LogD3D11RHI: CleanupD3DDevice
+[2019.01.25-21.00.04:098][513]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.01.25-21.00.04:156][513]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (632)
+[2019.01.25-21.00.04:156][513]LogModuleManager: Shutting down and abandoning module BlueprintGraph (630)
+[2019.01.25-21.00.04:156][513]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (628)
+[2019.01.25-21.00.04:156][513]LogModuleManager: Shutting down and abandoning module Voice (626)
+[2019.01.25-21.00.04:156][513]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (624)
+[2019.01.25-21.00.04:156][513]LogModuleManager: Shutting down and abandoning module SceneOutliner (622)
+[2019.01.25-21.00.04:156][513]LogModuleManager: Shutting down and abandoning module AddContentDialog (620)
+[2019.01.25-21.00.04:160][513]LogModuleManager: Shutting down and abandoning module WidgetCarousel (619)
+[2019.01.25-21.00.04:160][513]LogModuleManager: Shutting down and abandoning module EditorWidgets (616)
+[2019.01.25-21.00.04:160][513]LogModuleManager: Shutting down and abandoning module CollectionManager (614)
+[2019.01.25-21.00.04:161][513]LogModuleManager: Shutting down and abandoning module MeshBuilder (612)
+[2019.01.25-21.00.04:161][513]LogModuleManager: Shutting down and abandoning module StatsViewer (610)
+[2019.01.25-21.00.04:161][513]LogModuleManager: Shutting down and abandoning module FoliageEdit (608)
+[2019.01.25-21.00.04:161][513]LogModuleManager: Shutting down and abandoning module LandscapeEditor (606)
+[2019.01.25-21.00.04:161][513]LogModuleManager: Shutting down and abandoning module MeshPaintMode (604)
+[2019.01.25-21.00.04:161][513]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (602)
+[2019.01.25-21.00.04:161][513]LogModuleManager: Shutting down and abandoning module ActorPickerMode (600)
+[2019.01.25-21.00.04:161][513]LogModuleManager: Shutting down and abandoning module GeometryMode (598)
+[2019.01.25-21.00.04:162][513]LogModuleManager: Shutting down and abandoning module TextureAlignMode (596)
+[2019.01.25-21.00.04:162][513]LogModuleManager: Shutting down and abandoning module BspMode (594)
+[2019.01.25-21.00.04:162][513]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (592)
+[2019.01.25-21.00.04:162][513]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (590)
+[2019.01.25-21.00.04:162][513]LogModuleManager: Shutting down and abandoning module AutomationWorker (588)
+[2019.01.25-21.00.04:162][513]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (586)
+[2019.01.25-21.00.04:162][513]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (584)
+[2019.01.25-21.00.04:162][513]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (582)
+[2019.01.25-21.00.04:162][513]LogModuleManager: Shutting down and abandoning module PlacementMode (581)
+[2019.01.25-21.00.04:162][513]LogModuleManager: Shutting down and abandoning module MaterialEditor (580)
+[2019.01.25-21.00.04:162][513]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (576)
+[2019.01.25-21.00.04:162][513]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (574)
+[2019.01.25-21.00.04:162][513]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (572)
+[2019.01.25-21.00.04:162][513]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (570)
+[2019.01.25-21.00.04:162][513]LogModuleManager: Shutting down and abandoning module WebMMedia (568)
+[2019.01.25-21.00.04:162][513]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (566)
+[2019.01.25-21.00.04:162][513]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (564)
+[2019.01.25-21.00.04:163][513]LogModuleManager: Shutting down and abandoning module SequenceRecorder (563)
+[2019.01.25-21.00.04:163][513]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (560)
+[2019.01.25-21.00.04:163][513]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (558)
+[2019.01.25-21.00.04:163][513]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (556)
+[2019.01.25-21.00.04:163][513]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (554)
+[2019.01.25-21.00.04:163][513]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (552)
+[2019.01.25-21.00.04:163][513]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (550)
+[2019.01.25-21.00.04:163][513]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (548)
+[2019.01.25-21.00.04:163][513]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (546)
+[2019.01.25-21.00.04:163][513]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (544)
+[2019.01.25-21.00.04:163][513]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (542)
+[2019.01.25-21.00.04:163][513]LogModuleManager: Shutting down and abandoning module CharacterAI (540)
+[2019.01.25-21.00.04:163][513]LogModuleManager: Shutting down and abandoning module SmartSnapping (538)
+[2019.01.25-21.00.04:163][513]LogModuleManager: Shutting down and abandoning module SessionServices (536)
+[2019.01.25-21.00.04:163][513]LogModuleManager: Shutting down and abandoning module ViewportSnapping (534)
+[2019.01.25-21.00.04:163][513]LogModuleManager: Shutting down and abandoning module ViewportInteraction (532)
+[2019.01.25-21.00.04:163][513]LogModuleManager: Shutting down and abandoning module ClothPainter (530)
+[2019.01.25-21.00.04:163][513]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (529)
+[2019.01.25-21.00.04:163][513]LogModuleManager: Shutting down and abandoning module LogVisualizer (526)
+[2019.01.25-21.00.04:163][513]LogModuleManager: Shutting down and abandoning module IntroTutorials (524)
+[2019.01.25-21.00.04:164][513]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (523)
+[2019.01.25-21.00.04:164][513]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (520)
+[2019.01.25-21.00.04:164][513]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (518)
+[2019.01.25-21.00.04:164][513]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (516)
+[2019.01.25-21.00.04:164][513]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (514)
+[2019.01.25-21.00.04:164][513]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (513)
+[2019.01.25-21.00.05:541][513]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (510)
+[2019.01.25-21.00.05:541][513]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (508)
+[2019.01.25-21.00.05:541][513]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (506)
+[2019.01.25-21.00.05:541][513]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (504)
+[2019.01.25-21.00.05:541][513]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (502)
+[2019.01.25-21.00.05:541][513]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2019.01.25-21.00.05:541][513]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2019.01.25-21.00.05:542][513]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2019.01.25-21.00.05:542][513]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2019.01.25-21.00.05:542][513]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2019.01.25-21.00.05:542][513]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2019.01.25-21.00.05:542][513]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2019.01.25-21.00.05:542][513]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2019.01.25-21.00.05:542][513]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2019.01.25-21.00.05:542][513]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2019.01.25-21.00.05:543][513]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2019.01.25-21.00.05:544][513]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2019.01.25-21.00.05:544][513]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2019.01.25-21.00.05:544][513]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2019.01.25-21.00.05:545][513]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2019.01.25-21.00.05:545][513]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2019.01.25-21.00.05:545][513]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2019.01.25-21.00.05:545][513]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2019.01.25-21.00.05:602][513]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2019.01.25-21.00.05:602][513]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2019.01.25-21.00.05:602][513]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2019.01.25-21.00.05:603][513]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2019.01.25-21.00.05:603][513]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2019.01.25-21.00.05:603][513]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2019.01.25-21.00.05:604][513]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2019.01.25-21.00.05:604][513]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2019.01.25-21.00.05:604][513]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2019.01.25-21.00.05:604][513]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2019.01.25-21.00.05:614][513]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2019.01.25-21.00.05:615][513]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2019.01.25-21.00.05:616][513]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2019.01.25-21.00.05:616][513]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
+[2019.01.25-21.00.05:616][513]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
+[2019.01.25-21.00.05:616][513]LogModuleManager: Shutting down and abandoning module OutputLog (434)
+[2019.01.25-21.00.05:616][513]LogModuleManager: Shutting down and abandoning module GammaUI (432)
+[2019.01.25-21.00.05:616][513]LogModuleManager: Shutting down and abandoning module Documentation (430)
+[2019.01.25-21.00.05:617][513]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
+[2019.01.25-21.00.05:617][513]LogModuleManager: Shutting down and abandoning module MovieScene (426)
+[2019.01.25-21.00.05:617][513]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
+[2019.01.25-21.00.05:617][513]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
+[2019.01.25-21.00.05:617][513]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
+[2019.01.25-21.00.05:617][513]LogModuleManager: Shutting down and abandoning module PortalServices (418)
+[2019.01.25-21.00.05:617][513]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
+[2019.01.25-21.00.05:617][513]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
+[2019.01.25-21.00.05:617][513]LogModuleManager: Shutting down and abandoning module AIModule (412)
+[2019.01.25-21.00.05:617][513]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
+[2019.01.25-21.00.05:617][513]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
+[2019.01.25-21.00.05:617][513]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
+[2019.01.25-21.00.05:617][513]LogModuleManager: Shutting down and abandoning module DesktopPlatform (404)
+[2019.01.25-21.00.05:617][513]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (402)
+[2019.01.25-21.00.05:620][513]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.01.25-21.00.05:803][513]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.01.25-21.00.05:803][513]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.01.25-21.00.05:803][513]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.01.25-21.00.05:803][513]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.01.25-21.00.05:803][513]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.01.25-21.00.05:803][513]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.01.25-21.00.05:804][513]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.01.25-21.00.05:804][513]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.01.25-21.00.05:804][513]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.01.25-21.00.05:804][513]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.01.25-21.00.05:804][513]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.01.25-21.00.05:804][513]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.01.25-21.00.05:804][513]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.01.25-21.00.05:804][513]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.01.25-21.00.05:804][513]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2019.01.25-21.00.05:804][513]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2019.01.25-21.00.05:804][513]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2019.01.25-21.00.05:818][513]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.01.25-21.00.05:818][513]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.01.25-21.00.05:818][513]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.01.25-21.00.05:818][513]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.01.25-21.00.05:819][513]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.01.25-21.00.05:819][513]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (354)
+[2019.01.25-21.00.05:819][513]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.01.25-21.00.05:819][513]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.01.25-21.00.05:819][513]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.01.25-21.00.05:819][513]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.01.25-21.00.05:819][513]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.01.25-21.00.05:819][513]LogModuleManager: Shutting down and abandoning module VariantManagerContent (342)
+[2019.01.25-21.00.05:819][513]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (340)
+[2019.01.25-21.00.05:819][513]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.01.25-21.00.05:819][513]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.01.25-21.00.05:819][513]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.01.25-21.00.05:820][513]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.01.25-21.00.05:820][513]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.01.25-21.00.05:820][513]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.01.25-21.00.05:820][513]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.01.25-21.00.05:820][513]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.01.25-21.00.05:820][513]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.01.25-21.00.05:820][513]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.01.25-21.00.05:820][513]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.01.25-21.00.05:820][513]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.01.25-21.00.05:821][513]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.01.25-21.00.05:821][513]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.01.25-21.00.05:821][513]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.01.25-21.00.05:821][513]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2019.01.25-21.00.05:821][513]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2019.01.25-21.00.05:821][513]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2019.01.25-21.00.05:821][513]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2019.01.25-21.00.05:821][513]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2019.01.25-21.00.05:821][513]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2019.01.25-21.00.05:822][513]LogModuleManager: Shutting down and abandoning module MeshPaint (297)
+[2019.01.25-21.00.05:822][513]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
+[2019.01.25-21.00.05:822][513]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
+[2019.01.25-21.00.05:822][513]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
+[2019.01.25-21.00.05:822][513]LogModuleManager: Shutting down and abandoning module OculusEditor (288)
+[2019.01.25-21.00.05:822][513]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.01.25-21.00.05:823][513]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.01.25-21.00.05:823][513]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.01.25-21.00.05:924][513]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.01.25-21.00.06:025][513]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.01.25-21.00.06:025][513]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.01.25-21.00.06:025][513]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.01.25-21.00.06:025][513]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.01.25-21.00.06:025][513]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.01.25-21.00.06:025][513]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.01.25-21.00.06:026][513]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.01.25-21.00.06:028][513]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.01.25-21.00.06:028][513]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.01.25-21.00.06:029][513]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.01.25-21.00.06:029][513]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.01.25-21.00.06:030][513]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.01.25-21.00.06:032][513]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.01.25-21.00.06:032][513]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.01.25-21.00.06:032][513]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.01.25-21.00.06:032][513]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.01.25-21.00.06:032][513]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.01.25-21.00.06:032][513]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
+[2019.01.25-21.00.06:032][513]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
+[2019.01.25-21.00.06:033][513]LogModuleManager: Shutting down and abandoning module Media (241)
+[2019.01.25-21.00.06:040][513]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
+[2019.01.25-21.00.06:040][513]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
+[2019.01.25-21.00.06:040][513]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
+[2019.01.25-21.00.06:040][513]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
+[2019.01.25-21.00.06:040][513]LogModuleManager: Shutting down and abandoning module Overlay (230)
+[2019.01.25-21.00.06:040][513]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
+[2019.01.25-21.00.06:040][513]LogModuleManager: Shutting down and abandoning module VREditor (226)
+[2019.01.25-21.00.06:040][513]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
+[2019.01.25-21.00.06:040][513]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
+[2019.01.25-21.00.06:040][513]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
+[2019.01.25-21.00.06:040][513]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
+[2019.01.25-21.00.06:040][513]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
+[2019.01.25-21.00.06:040][513]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
+[2019.01.25-21.00.06:040][513]LogModuleManager: Shutting down and abandoning module UMG (212)
+[2019.01.25-21.00.06:040][513]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
+[2019.01.25-21.00.06:040][513]LogModuleManager: Shutting down and abandoning module Sequencer (210)
+[2019.01.25-21.00.06:040][513]LogModuleManager: Shutting down and abandoning module MessageLog (207)
+[2019.01.25-21.00.06:040][513]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
+[2019.01.25-21.00.06:040][513]LogModuleManager: Shutting down and abandoning module Slate (200)
+[2019.01.25-21.00.06:040][513]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
+[2019.01.25-21.00.06:042][513]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.01.25-21.00.06:042][513]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.01.25-21.00.06:042][513]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.01.25-21.00.06:042][513]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.01.25-21.00.06:042][513]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.01.25-21.00.06:042][513]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.01.25-21.00.06:042][513]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
+[2019.01.25-21.00.06:042][513]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
+[2019.01.25-21.00.06:042][513]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
+[2019.01.25-21.00.06:042][513]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
+[2019.01.25-21.00.06:042][513]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
+[2019.01.25-21.00.06:042][513]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
+[2019.01.25-21.00.06:042][513]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
+[2019.01.25-21.00.06:042][513]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
+[2019.01.25-21.00.06:042][513]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
+[2019.01.25-21.00.06:042][513]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
+[2019.01.25-21.00.06:042][513]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
+[2019.01.25-21.00.06:043][513]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
+[2019.01.25-21.00.06:108][513]LogDerivedDataCache: Shutdown
+[2019.01.25-21.00.06:108][513]LogModuleManager: Shutting down and abandoning module XGEController (158)
+[2019.01.25-21.00.06:109][513]LogXGEController: Cleaning working directory: C:/Users/jb/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.25-21.00.06:110][513]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
+[2019.01.25-21.00.06:111][513]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
+[2019.01.25-21.00.06:111][513]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
+[2019.01.25-21.00.06:111][513]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
+[2019.01.25-21.00.06:111][513]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
+[2019.01.25-21.00.06:111][513]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
+[2019.01.25-21.00.06:111][513]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
+[2019.01.25-21.00.06:111][513]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
+[2019.01.25-21.00.06:111][513]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
+[2019.01.25-21.00.06:112][513]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
+[2019.01.25-21.00.06:112][513]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
+[2019.01.25-21.00.06:112][513]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
+[2019.01.25-21.00.06:112][513]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
+[2019.01.25-21.00.06:112][513]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
+[2019.01.25-21.00.06:113][513]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
+[2019.01.25-21.00.06:113][513]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
+[2019.01.25-21.00.06:113][513]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
+[2019.01.25-21.00.06:120][513]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2019.01.25-21.00.06:120][513]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2019.01.25-21.00.06:120][513]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2019.01.25-21.00.06:120][513]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
+[2019.01.25-21.00.06:120][513]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
+[2019.01.25-21.00.06:123][513]LogModuleManager: Shutting down and abandoning module Messaging (113)
+[2019.01.25-21.00.06:123][513]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
+[2019.01.25-21.00.06:125][513]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
+[2019.01.25-21.00.06:125][513]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
+[2019.01.25-21.00.06:150][513]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
+[2019.01.25-21.00.06:150][513]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
+[2019.01.25-21.00.06:150][513]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
+[2019.01.25-21.00.06:150][513]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
+[2019.01.25-21.00.06:150][513]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
+[2019.01.25-21.00.06:150][513]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
+[2019.01.25-21.00.06:150][513]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
+[2019.01.25-21.00.06:150][513]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
+[2019.01.25-21.00.06:150][513]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
+[2019.01.25-21.00.06:150][513]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2019.01.25-21.00.06:150][513]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2019.01.25-21.00.06:151][513]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2019.01.25-21.00.06:151][513]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2019.01.25-21.00.06:151][513]LogHMD: Freeing OpenVRDLLHandle.
+[2019.01.25-21.00.06:151][513]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2019.01.25-21.00.06:151][513]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2019.01.25-21.00.06:151][513]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2019.01.25-21.00.06:151][513]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2019.01.25-21.00.06:151][513]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2019.01.25-21.00.06:152][513]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.01.25-21.00.06:152][513]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.01.25-21.00.06:163][513]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.01.25-21.00.06:163][513]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.01.25-21.00.06:163][513]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9FE1E84E-4B97-8395-18AE-91AA5DC29DC0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.1-4613538%2B%2B%2BUE4%2BRelease-4.21&UserID=f74e95404eb9dafc056573913385ce5c%7C13ef191abea9463db19ff25f753056bd%7C1519a026-273d-4f6b-951a-46708d21fae1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.01.25-21.00.06:196][513]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.01.25-21.00.06:197][513]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.01.25-21.00.06:197][513]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.01.25-21.00.06:198][513]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.01.25-21.00.06:198][513]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.01.25-21.00.06:198][513]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.01.25-21.00.06:198][513]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.01.25-21.00.06:198][513]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.01.25-21.00.06:198][513]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.01.25-21.00.06:198][513]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.01.25-21.00.06:198][513]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.01.25-21.00.06:199][513]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.01.25-21.00.06:199][513]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.01.25-21.00.06:199][513]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.01.25-21.00.06:199][513]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.01.25-21.00.06:199][513]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.01.25-21.00.06:199][513]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.01.25-21.00.06:199][513]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.01.25-21.00.06:201][513]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.01.25-21.00.06:201][513]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.01.25-21.00.06:201][513]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.01.25-21.00.06:201][513]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.01.25-21.00.06:201][513]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.01.25-21.00.06:201][513]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.01.25-21.00.06:201][513]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.01.25-21.00.06:201][513]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.01.25-21.00.06:201][513]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.01.25-21.00.06:201][513]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.01.25-21.00.06:201][513]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.01.25-21.00.06:207][513]LogExit: Exiting.
+[2019.01.25-21.00.06:226][513]Log file closed, 01/25/19 22:00:06
