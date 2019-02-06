@@ -1477,3 +1477,323 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.02.06-13.48.21:827][422]LogEditorViewport: Clicking on Actor (LMB): maze_backtrack2_C (maze_backtrack2)
 [2019.02.06-13.48.22:715][463]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
 [2019.02.06-13.48.30:134][803]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-13.52.25:830][232]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.02.06-13.53.08:382][319]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-13.53.22:807][ 93]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.02.06-13.53.31:570][512]LogEditorViewport: Clicking on Actor (LMB): maze_backtrack2_C (maze_backtrack2)
+[2019.02.06-13.53.32:307][536]LogEditorViewport: Clicking on Actor (LMB): maze_backtrack2_C (maze_backtrack2)
+[2019.02.06-13.53.32:762][553]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.02.06-13.53.38:657][820]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-13.54.01:187][964]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-13.54.07:986][288]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.02.06-13.54.38:837][848]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-13.54.46:254][253]LogActorFactory: Actor Factory created Cube
+[2019.02.06-13.54.48:239][352]LogActorFactory: Actor Factory created Cube
+[2019.02.06-13.55.01:812][ 96]Cmd: TRANSACTION UNDO
+[2019.02.06-13.55.01:813][ 96]LogEditorTransaction: Undo Scale Actors
+[2019.02.06-13.55.13:975][748]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.02.06-13.55.25:914][395]Cmd: EDIT COPY
+[2019.02.06-13.55.26:282][408]Cmd: EDIT PASTE
+[2019.02.06-13.55.52:791][820]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube4)
+[2019.02.06-13.55.55:159][954]LogEditorViewport: Clicking on Actor (LMB): maze_backtrack2_C (maze_backtrack2)
+[2019.02.06-13.55.55:885][992]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2019.02.06-13.55.58:366][ 88]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.06-13.56.01:802][216]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2019.02.06-13.56.03:164][274]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.06-13.56.17:698][ 19]LogEditorViewport: Clicking on Actor (LMB): maze_backtrack2_C (maze_backtrack2)
+[2019.02.06-13.56.18:485][ 50]LogEditorViewport: Clicking on Actor (LMB): BP_Real_Energy_C (BP_Real_Energy)
+[2019.02.06-13.56.28:497][575]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2019.02.06-13.56.29:632][636]Cmd: EDIT COPY
+[2019.02.06-13.56.29:907][653]Cmd: EDIT PASTE
+[2019.02.06-13.56.40:522][213]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.02.06-13.57.01:025][152]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-13.57.15:300][775]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.02.06-13.57.28:947][531]LogEditorViewport: Clicking on Actor (LMB): maze_backtrack2_C (maze_backtrack2)
+[2019.02.06-13.57.31:321][657]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.06-13.57.32:132][657]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/level3C1A6B94949A3E6A85009D897F241406E.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/Maps/level3.umap'
+[2019.02.06-13.57.32:204][657]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/level3_BuiltData" FILE="../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/Maps/level3_BuiltData.uasset" SILENT=true
+[2019.02.06-13.57.32:307][657]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/level3_BuiltData7FF452E6489DBB357A30A7A42BB4B7A6.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/Maps/level3_BuiltData.uasset'
+[2019.02.06-13.57.34:335][796]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-13.57.34:509][805]MapCheck: New page: Map Check
+[2019.02.06-13.57.34:568][805]Cmd: MAP REBUILD ALLVISIBLE
+[2019.02.06-13.57.34:569][805]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.02.06-13.57.34:779][805]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Worn, compiling. 
+[2019.02.06-13.57.34:801][805]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.06-13.57.34:801][805]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.02.06-13.57.34:829][805]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.06-13.57.34:830][805]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Brick_Clay_Beveled, compiling. 
+[2019.02.06-13.57.34:860][805]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MT_Key, compiling. 
+[2019.02.06-13.57.34:883][805]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2019.02.06-13.57.34:916][805]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.06-13.57.34:916][805]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.06-13.57.34:916][805]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Frame, compiling. 
+[2019.02.06-13.57.34:949][805]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Door, compiling. 
+[2019.02.06-13.57.34:977][805]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2019.02.06-13.57.35:008][805]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy triggerMaterial, compiling. 
+[2019.02.06-13.57.35:042][805]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MT_Energy, compiling. 
+[2019.02.06-13.57.35:079][805]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2019.02.06-13.57.38:085][805]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.02.06-13.57.38:086][805]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.02.06-13.57.38:086][805]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.02.06-13.57.38:086][805]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.06-13.57.38:086][805]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.06-13.57.38:086][805]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.06-13.57.38:086][805]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.06-13.57.38:086][805]TextureStreamingBuild: Display: Compiling optional shaders took 3.320 seconds.
+[2019.02.06-13.57.38:173][805]LogLevel: Display: Export Material TexCoord Scales took 0.087 seconds.
+[2019.02.06-13.57.38:221][805]TextureStreamingBuild: Display: Build Texture Streaming took 0.047 seconds.
+[2019.02.06-13.57.38:336][805]LightingResults: New page: Lighting Build - Feb 6, 2019, 3:57:38 PM
+[2019.02.06-13.57.38:362][805]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.02.06-13.57.38:370][805]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.02.06-13.57.38:370][805]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.02.06-13.57.38:373][805]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.02.06-13.57.38:373][805]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8464
+[2019.02.06-13.57.42:900][805]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.02.06-13.57.42:900][805]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.02.06-13.57.42:900][805]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.02.06-13.57.42:900][805]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.02.06-13.57.42:900][805]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.02.06-13.57.42:900][805]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.02.06-13.57.43:031][805]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.02.06-13.57.43:031][805]MapCheck: New page: level3 - Feb 6, 2019, 3:57:43 PM
+[2019.02.06-13.57.43:032][805]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2019.02.06-13.57.43:032][805]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 1.064ms to complete.
+[2019.02.06-13.57.43:056][805]LogEditorBuildUtils: Build time 0:08
+[2019.02.06-13.57.43:061][805]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.06-13.57.56:648][127]Job is a success!
+[2019.02.06-13.57.56:917][128]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.100s
+[2019.02.06-13.57.56:917][128]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.02.06-13.57.56:917][128]LogVolumetricLightmapImport:      BrickData 675x5x5 = 0.6Mb
+[2019.02.06-13.57.56:918][128]LogVolumetricLightmapImport:      Bricks at Level
+[2019.02.06-13.57.56:918][128]LogVolumetricLightmapImport:          0: 0.7% covering 100.0% of volume
+[2019.02.06-13.57.56:918][128]LogVolumetricLightmapImport:          1: 6.7% covering 14.1% of volume
+[2019.02.06-13.57.56:918][128]LogVolumetricLightmapImport:          2: 92.6% covering 3.1% of volume
+[2019.02.06-13.57.57:443][128]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2019.02.06-13.57.57:443][128]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2019.02.06-13.57.57:443][128]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2019.02.06-13.57.57:443][128]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2019.02.06-13.57.57:635][128]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2019.02.06-13.57.57:635][128]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 512X256)
+[2019.02.06-13.57.57:682][128]Lightmass on LAPTOP-4DDR39I4: 13.7 sec total, 191 ms importing, 5 ms setup, 3.36 sec photons, 10.1 sec processing, 0 ms extra exporting [9/9 mappings]. Threads: 1:10 min total, 18.4 sec processing.
+[2019.02.06-13.57.57:850][128]LogStaticLightingSystem: Illumination: 19.4 sec (442 ms encoding lightmaps, 164 ms encoding shadowmaps)
+[2019.02.06-13.57.57:850][128]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.02.06-13.57.57:850][128]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2019.02.06-13.57.57:920][128]DumpUnbuiltLightIteractions
+[2019.02.06-13.57.57:920][128]Lights with unbuilt interactions: 0
+[2019.02.06-13.57.57:920][128]
+[2019.02.06-13.57.57:920][128]Primitives with unbuilt interactions: 0
+[2019.02.06-13.57.57:933][128]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.06-13.57.58:138][129]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.02.06-13.57.58:139][129]MapCheck: New page: level3 - Feb 6, 2019, 3:57:58 PM
+[2019.02.06-13.57.58:141][129]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2.685ms to complete.
+[2019.02.06-13.58.08:084][569]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-13.58.08:221][574]LogSlate: Window 'Message Log' being destroyed
+[2019.02.06-13.58.08:245][574]LogSlate: Window 'Message Log' being destroyed
+[2019.02.06-13.58.27:276][636]LogEditorViewport: Clicking on Actor (LMB): maze_backtrack2_C (maze_backtrack2)
+[2019.02.06-13.58.27:841][672]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.02.06-13.58.33:088][941]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-13.58.55:840][174]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.02.06-13.59.32:588][ 77]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.02.06-13.59.38:667][355]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-13.59.38:943][363]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/MazeItems/Energy/Energy_Mesh.Energy_Mesh
+[2019.02.06-13.59.40:312][363]LogRenderer: Reallocating scene render targets to support 952x564 Format 10 NumSamples 1 (Frame:1).
+[2019.02.06-13.59.49:096][643]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-13.59.49:207][646]LogSlate: Window 'Energy_Mesh' being destroyed
+[2019.02.06-13.59.49:238][646]LogSlate: Window 'Energy_Mesh' being destroyed
+[2019.02.06-13.59.53:711][827]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-14.00.09:414][625]LogActorFactory: Actor Factory created Cube
+[2019.02.06-14.00.12:251][741]LogActorFactory: Actor Factory created Cube
+[2019.02.06-14.00.13:713][797]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2019.02.06-14.00.14:480][827]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2019.02.06-14.00.31:798][746]Cmd: EDIT COPY
+[2019.02.06-14.00.32:040][754]Cmd: EDIT PASTE
+[2019.02.06-14.00.37:465][ 62]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.02.06-14.01.08:615][774]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.06-14.01.10:719][850]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2019.02.06-14.01.11:926][909]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.06-14.01.38:269][349]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube7)
+[2019.02.06-14.01.39:898][440]Cmd: EDIT COPY
+[2019.02.06-14.01.40:189][452]Cmd: EDIT PASTE
+[2019.02.06-14.02.41:296][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-14.02.52:276][158]LogEditorViewport: Clicking on Actor (LMB): maze_backtrack2_C (maze_backtrack2)
+[2019.02.06-14.02.53:209][199]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.02.06-14.03.04:693][839]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-14.03.07:770][994]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.02.06-14.03.45:111][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-14.03.57:759][697]LogEditorViewport: Clicking on Actor (LMB): maze_backtrack2_C (maze_backtrack2)
+[2019.02.06-14.03.58:548][727]LogEditorViewport: Clicking on Actor (LMB): maze_backtrack2_C (maze_backtrack2)
+[2019.02.06-14.03.59:690][790]LogEditorViewport: Clicking on Actor (LMB): BP_Real_Key_C (BP_Real_Key)
+[2019.02.06-14.04.06:394][125]LogEditorViewport: Clicking on Actor (LMB): BP_Real_Energy_C (BP_Real_Energy)
+[2019.02.06-14.04.24:965][866]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-14.04.25:126][882]LogActorFactory: Actor Factory created Cube
+[2019.02.06-14.04.26:829][ 74]LogActorFactory: Actor Factory created Cube
+[2019.02.06-14.04.27:402][135]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.02.06-14.04.37:858][153]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.06-14.04.49:840][649]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-14.04.53:310][809]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.02.06-14.05.00:824][192]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube10)
+[2019.02.06-14.05.05:207][417]Cmd: EDIT COPY
+[2019.02.06-14.05.05:470][433]Cmd: EDIT PASTE
+[2019.02.06-14.05.13:393][853]Cmd: EDIT COPY
+[2019.02.06-14.05.13:635][861]Cmd: EDIT PASTE
+[2019.02.06-14.05.33:486][921]LogEditorViewport: Clicking on Actor (LMB): maze_backtrack2_C (maze_backtrack2)
+[2019.02.06-14.05.34:185][985]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.02.06-14.05.50:738][950]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-14.06.06:874][759]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-14.06.07:051][766]LogActorFactory: Actor Factory created Cube
+[2019.02.06-14.06.08:190][822]LogActorFactory: Actor Factory created Cube
+[2019.02.06-14.06.28:278][865]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.06-14.06.30:804][951]Cmd: EDIT COPY
+[2019.02.06-14.06.31:098][963]Cmd: EDIT PASTE
+[2019.02.06-14.06.46:332][894]LogEditorViewport: Clicking on Actor (LMB): maze_backtrack2_C (maze_backtrack2)
+[2019.02.06-14.06.47:101][982]LogEditorViewport: Clicking on Actor (LMB): BP_Real_Energy_C (BP_Real_Energy5)
+[2019.02.06-14.06.51:374][486]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube13)
+[2019.02.06-14.06.57:184][174]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube14)
+[2019.02.06-14.07.09:052][556]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.06-14.07.09:458][556]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/level3CF769D5A496FB8D6231704AFE10E1E99.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/Maps/level3.umap'
+[2019.02.06-14.07.09:501][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/level3_BuiltData" FILE="../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/Maps/level3_BuiltData.uasset" SILENT=true
+[2019.02.06-14.07.09:569][556]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/level3_BuiltData74B72FAC44BC148B1936749037F4E514.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/Maps/level3_BuiltData.uasset'
+[2019.02.06-14.07.19:361][324]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-14.07.35:781][ 22]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/level3D5AE29E047E49992459DFEAC8753ABD2.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/Maps/level3.umap'
+[2019.02.06-14.07.35:860][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/level3_BuiltData" FILE="../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/Maps/level3_BuiltData.uasset" SILENT=true
+[2019.02.06-14.07.35:991][ 22]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/level3_BuiltData7D8EBA524C7B5FE2E9F435B32027148A.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/Maps/level3_BuiltData.uasset'
+[2019.02.06-14.07.37:596][129]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-14.07.37:752][138]MapCheck: New page: Map Check
+[2019.02.06-14.07.37:819][138]Cmd: MAP REBUILD ALLVISIBLE
+[2019.02.06-14.07.37:819][138]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.02.06-14.07.38:249][138]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wood_Floor_Walnut_Worn, compiling. 
+[2019.02.06-14.07.38:281][138]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.06-14.07.38:281][138]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_0, compiling. 
+[2019.02.06-14.07.38:316][138]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Brick_Clay_Beveled, compiling. 
+[2019.02.06-14.07.38:360][138]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.06-14.07.38:360][138]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MT_Key, compiling. 
+[2019.02.06-14.07.38:405][138]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.06-14.07.38:405][138]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2019.02.06-14.07.38:443][138]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Frame, compiling. 
+[2019.02.06-14.07.38:483][138]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.06-14.07.38:484][138]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Door, compiling. 
+[2019.02.06-14.07.38:534][138]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2019.02.06-14.07.38:584][138]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy triggerMaterial, compiling. 
+[2019.02.06-14.07.38:633][138]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy MT_Energy, compiling. 
+[2019.02.06-14.07.38:679][138]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2019.02.06-14.07.41:716][138]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.02.06-14.07.41:716][138]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.02.06-14.07.41:716][138]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.02.06-14.07.41:716][138]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.06-14.07.41:716][138]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.06-14.07.41:716][138]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.06-14.07.41:716][138]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.06-14.07.41:716][138]TextureStreamingBuild: Display: Compiling optional shaders took 3.486 seconds.
+[2019.02.06-14.07.41:756][138]LogLevel: Display: Export Material TexCoord Scales took 0.040 seconds.
+[2019.02.06-14.07.41:816][138]TextureStreamingBuild: Display: Build Texture Streaming took 0.058 seconds.
+[2019.02.06-14.07.41:915][138]LightingResults: New page: Lighting Build - Feb 6, 2019, 4:07:41 PM
+[2019.02.06-14.07.41:937][138]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.02.06-14.07.41:943][138]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.02.06-14.07.41:943][138]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.02.06-14.07.41:946][138]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.02.06-14.07.41:946][138]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8464
+[2019.02.06-14.07.46:465][138]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.02.06-14.07.46:465][138]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.02.06-14.07.46:465][138]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.02.06-14.07.46:465][138]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.02.06-14.07.46:465][138]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.02.06-14.07.46:465][138]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.02.06-14.07.46:601][138]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.02.06-14.07.46:601][138]MapCheck: New page: level3 - Feb 6, 2019, 4:07:46 PM
+[2019.02.06-14.07.46:601][138]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2019.02.06-14.07.46:602][138]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 1.368ms to complete.
+[2019.02.06-14.07.46:626][138]LogEditorBuildUtils: Build time 0:08
+[2019.02.06-14.07.52:104][151]Job is a success!
+[2019.02.06-14.07.52:506][152]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.019s
+[2019.02.06-14.07.52:506][152]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2019.02.06-14.07.52:506][152]LogVolumetricLightmapImport:      BrickData 690x5x5 = 0.6Mb
+[2019.02.06-14.07.52:506][152]LogVolumetricLightmapImport:      Bricks at Level
+[2019.02.06-14.07.52:506][152]LogVolumetricLightmapImport:          0: 0.7% covering 100.0% of volume
+[2019.02.06-14.07.52:506][152]LogVolumetricLightmapImport:          1: 6.5% covering 14.1% of volume
+[2019.02.06-14.07.52:506][152]LogVolumetricLightmapImport:          2: 92.8% covering 3.1% of volume
+[2019.02.06-14.07.52:724][152]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2019.02.06-14.07.52:724][152]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2019.02.06-14.07.52:724][152]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2019.02.06-14.07.52:724][152]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2019.02.06-14.07.52:724][152]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2019.02.06-14.07.52:771][152]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X256)
+[2019.02.06-14.07.52:781][152]Lightmass on LAPTOP-4DDR39I4: 3.65 sec total, 110 ms importing, 4 ms setup, 897 ms photons, 2.62 sec processing, 0 ms extra exporting [17/17 mappings]. Threads: 18.1 sec total, 3.66 sec processing.
+[2019.02.06-14.07.52:818][152]LogStaticLightingSystem: Illumination: 10.5 sec (177 ms encoding lightmaps, 64 ms encoding shadowmaps)
+[2019.02.06-14.07.52:818][152]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.02.06-14.07.52:818][152]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2019.02.06-14.07.53:474][152]DumpUnbuiltLightIteractions
+[2019.02.06-14.07.53:474][152]Lights with unbuilt interactions: 0
+[2019.02.06-14.07.53:474][152]
+[2019.02.06-14.07.53:474][152]Primitives with unbuilt interactions: 0
+[2019.02.06-14.07.53:700][153]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.02.06-14.07.53:700][153]MapCheck: New page: level3 - Feb 6, 2019, 4:07:53 PM
+[2019.02.06-14.07.53:701][153]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.07ms to complete.
+[2019.02.06-14.08.50:107][382]LogSlate: Window 'Message Log' being destroyed
+[2019.02.06-14.08.50:128][382]LogSlate: Window 'Message Log' being destroyed
+[2019.02.06-14.08.58:631][152]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-14.09.00:183][317]LogAIModule: Creating AISystem for world level1
+[2019.02.06-14.09.00:192][317]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/level1.level1
+[2019.02.06-14.09.01:856][317]LogSlate: Window 'Save Content' being destroyed
+[2019.02.06-14.09.02:087][317]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/level33178BDC64FAC1D282B32799EE837A5B2.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/Maps/level3.umap'
+[2019.02.06-14.09.02:111][317]LogFileHelpers: Saving map 'level3' took 0.246
+[2019.02.06-14.09.02:112][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/level3_BuiltData" FILE="../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/Maps/level3_BuiltData.uasset" SILENT=true
+[2019.02.06-14.09.02:175][317]LogSavePackage: Moving '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Saved/level3_BuiltData0F2457A3498DD767517C00BE596E9E76.tmp' to '../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/Maps/level3_BuiltData.uasset'
+[2019.02.06-14.09.02:178][317]Cmd: MAP LOAD FILE="../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/Maps/level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.06-14.09.02:179][317]LightingResults: New page: Lighting Build
+[2019.02.06-14.09.02:179][317]LoadErrors: New page: Loading map: level1.umap
+[2019.02.06-14.09.02:181][317]MapCheck: New page: Map Check
+[2019.02.06-14.09.02:181][317]LightingResults: New page: Lighting Build
+[2019.02.06-14.09.02:226][317]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.06-14.09.02:269][317]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.06-14.09.02:273][317]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 3.984ms to complete.
+[2019.02.06-14.09.02:274][317]LogFileHelpers: Loading map 'level1' took 0.097
+[2019.02.06-14.09.02:347][317]LogAIModule: Creating AISystem for world level3
+[2019.02.06-14.12.49:261][911]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-14.12.49:439][921]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/level1.level1
+[2019.02.06-14.12.49:555][921]Cmd: MAP LOAD FILE="../../../../../../Users/jb/studium/5semester/gameEngines/gameEngines_2/maze_runner/Content/Maps/level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.06-14.12.49:556][921]LightingResults: New page: Lighting Build
+[2019.02.06-14.12.49:558][921]LoadErrors: New page: Loading map: level1.umap
+[2019.02.06-14.12.49:563][921]MapCheck: New page: Map Check
+[2019.02.06-14.12.49:563][921]LightingResults: New page: Lighting Build
+[2019.02.06-14.12.50:127][921]LogAIModule: Creating AISystem for world level1
+[2019.02.06-14.12.50:208][921]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.06-14.12.50:417][921]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.06-14.12.50:418][921]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.48ms to complete.
+[2019.02.06-14.12.50:439][921]LogFileHelpers: Loading map 'level1' took 0.886
+[2019.02.06-14.12.52:234][ 39]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-14.12.54:324][155]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.06-14.12.54:379][155]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/level1.level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/level1.level1:PersistentLevel.level1' with GeneratedClass '/Game/Maps/level1.level1_C' with ClassGeneratedBy '/Game/Maps/level1.level1:PersistentLevel.level1'
+[2019.02.06-14.12.54:380][155]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.06-14.12.54:380][155]PIE: New page: PIE session: level1 (Feb 6, 2019, 4:12:54 PM)
+[2019.02.06-14.12.54:380][155]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_level1
+[2019.02.06-14.12.54:406][155]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024901s)
+[2019.02.06-14.12.54:407][155]LogAIModule: Creating AISystem for world level1
+[2019.02.06-14.12.54:407][155]LogPlayLevel: PIE: World Init took: (0.001524s)
+[2019.02.06-14.12.54:407][155]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/level1.level1 to /Game/Maps/UEDPIE_0_level1.level1 (0.026836s)
+[2019.02.06-14.12.54:510][155]LogInit: XAudio2 using 'Lautsprecher (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.06-14.12.54:565][155]LogInit: FAudioDevice initialized.
+[2019.02.06-14.12.54:608][155]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.06-14.12.54:617][155]LogWorld: Bringing World /Game/Maps/UEDPIE_0_level1.level1 up for play (max tick rate 0) at 2019.02.06-15.12.54
+[2019.02.06-14.12.54:619][155]LogWorld: Bringing up level for play took: 0.008766
+[2019.02.06-14.12.54:642][155]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_level1 0.47
+[2019.02.06-14.12.54:663][155]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/level1.level1:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/level1.level1:PersistentLevel.level1' with GeneratedClass '/Game/Maps/level1.level1_C' with ClassGeneratedBy '/Game/Maps/level1.level1:PersistentLevel.level1'
+[2019.02.06-14.13.09:087][ 20]PIE: Warning: Projectile_C_0.Sphere ProjectileMesh has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2019.02.06-14.13.10:612][105]PIE: Warning: Projectile_C_1.Sphere ProjectileMesh has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2019.02.06-14.13.12:136][196]PIE: Warning: Projectile_C_2.Sphere ProjectileMesh has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2019.02.06-14.13.13:664][286]PIE: Warning: Projectile_C_3.Sphere ProjectileMesh has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2019.02.06-14.13.15:180][374]PIE: Warning: Projectile_C_4.Sphere ProjectileMesh has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2019.02.06-14.14.18:130][ 26]PIE: Warning: Projectile_C_5.Sphere ProjectileMesh has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2019.02.06-14.14.19:648][116]PIE: Warning: Projectile_C_6.Sphere ProjectileMesh has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2019.02.06-14.14.21:678][235]PIE: Warning: Projectile_C_7.Sphere ProjectileMesh has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2019.02.06-14.14.23:213][325]PIE: Warning: Projectile_C_8.Sphere ProjectileMesh has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2019.02.06-14.14.24:748][415]PIE: Warning: Projectile_C_9.Sphere ProjectileMesh has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2019.02.06-14.14.26:284][505]PIE: Warning: Projectile_C_10.Sphere ProjectileMesh has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2019.02.06-14.14.27:826][595]PIE: Warning: Projectile_C_11.Sphere ProjectileMesh has to have 'Simulate Physics' enabled if you'd like to AddImpulse. 
+[2019.02.06-14.15.11:062][499]LogNet: Browse: /Game/Maps/level2
+[2019.02.06-14.15.11:064][499]LogLoad: LoadMap: /Game/Maps/level2
+[2019.02.06-14.15.11:387][499]LogAIModule: Creating AISystem for world level2
+[2019.02.06-14.15.11:388][499]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.02.06-14.15.11:451][499]LogWorld: Bringing World /Game/Maps/UEDPIE_0_level2.level2 up for play (max tick rate 0) at 2019.02.06-15.15.11
+[2019.02.06-14.15.11:454][499]LogWorld: Bringing up level for play took: 0.063261
+[2019.02.06-14.15.11:463][499]LogLoad: Took 0.399885 seconds to LoadMap(/Game/Maps/level2)
+[2019.02.06-14.15.17:799][850]LogSlate: FSceneViewport::OnFocusLost() reason 0
